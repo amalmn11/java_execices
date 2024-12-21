@@ -1,0 +1,18 @@
+package projet;
+
+abstract public class Forme 
+{
+	 abstract void afficher(){}
+
+}
+
+
+class Carre extends Forme 
+{
+	private int longeur;
+	private int largeur;
+	void afficher()
+	{
+		
+	}
+}

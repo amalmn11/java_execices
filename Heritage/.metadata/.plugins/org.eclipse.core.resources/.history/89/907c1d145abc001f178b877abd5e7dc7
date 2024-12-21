@@ -1,0 +1,9 @@
+package Chaine;
+
+public class Chaine 
+{
+	static void main(String arg[])
+	{
+		
+	}
+}

@@ -1,0 +1,25 @@
+package projet;
+
+abstract public class Forme 
+{
+	 abstract void afficher(){}
+
+}
+
+
+class Carre extends Forme 
+{
+	private int longeur;
+	private int largeur;
+	
+	Carre(int a, int b)
+	{
+		this.longeur=a;
+		this.largeur=b;
+	}
+	void afficher()
+	{
+		System.out.println("longeur : "+this.longeur);
+		System.out.println("longeur : "+this.largeur);
+	}
+}

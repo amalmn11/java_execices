@@ -1,0 +1,52 @@
+package division;
+
+
+class Rationnel
+{
+	private int nominateur;
+	private int denominateur;
+	
+	
+	Rationnel(int a,int b)
+	{
+		if(b==0) 
+		{
+			System.out.println("Error:le denominateur est egale à 0");
+		}
+		else
+		{
+			this.nominateur=a;
+			this.denominateur=b;
+		}
+	}
+	
+	public int getNominateur(){return this.nominateur;}
+	public int getDenominateur(){return this.denominateur;}
+	
+	public void setNominateur(int a){this.nominateur=a;}
+	public void setDenominateur(int b)
+	{
+		if(b==0)
+		{
+			System.out.println("Error:le denominateur est egale à 0");
+		}
+		else {
+			this.denominateur=b;
+		}
+	}
+	public double CalculeRationnel()
+	{ 
+		return this.nominateur/this.denominateur;
+	}
+	
+	
+	public double Somme(Rationnel& r)
+	{
+		Rationnel r;
+		
+	}
+}
+
+public class division {
+
+}

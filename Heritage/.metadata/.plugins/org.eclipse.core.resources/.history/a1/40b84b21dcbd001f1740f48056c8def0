@@ -1,0 +1,13 @@
+package heritage;
+
+abstract class RefBiblioraphie 
+{
+	protected String Titre;
+	protected String Auteur;
+	RefBiblioraphie(String titre , String author){
+		this.Auteur=author.toUpperCase();
+		this.Titre=titre.toUpperCase();
+	};
+	public abstract void Affichage();
+
+}

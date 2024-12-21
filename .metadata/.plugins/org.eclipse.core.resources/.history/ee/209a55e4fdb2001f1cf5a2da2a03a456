@@ -1,0 +1,12 @@
+package projet;
+
+abstract public class Forme 
+{
+	 private Forme form[100];
+	 protected double surface;
+	 protected double perimetre;
+	 abstract void afficher();
+	 abstract void surface();
+	 abstract void perimetre();
+}
+

@@ -1,0 +1,10 @@
+package projet;
+
+public class Forme 
+{
+	public void afficher() 
+	{
+		
+	}
+
+}

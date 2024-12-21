@@ -1,0 +1,11 @@
+package heritage;
+
+abstract class RefBiblioraphie 
+{
+	
+	private String Titre;
+	private	String Auteur;
+	public abstract void Affichage();
+			
+
+}

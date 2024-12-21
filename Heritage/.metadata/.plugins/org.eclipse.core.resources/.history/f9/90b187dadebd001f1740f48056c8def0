@@ -1,0 +1,11 @@
+package heritage;
+
+public class Web extends RefBiblioraphie 
+{
+	private String LienWeb;
+	Web(String Titre, String LienWeb)
+	{
+		super(Titre,"  ");
+		this.LienWeb=LienWeb;
+	}
+}

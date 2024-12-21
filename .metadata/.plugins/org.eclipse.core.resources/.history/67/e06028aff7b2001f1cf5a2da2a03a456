@@ -1,0 +1,102 @@
+package projet;
+
+abstract public class Forme 
+{
+	 protected double surface;
+	 protected double perimetre;
+	 abstract void afficher();
+	 abstract void surface();
+	 abstract void perimetre();
+}
+
+
+class Carre extends Forme 
+{
+	private int cote;
+	
+	
+	Carre(int a)
+	{
+		this.cote=a;
+	}
+	
+	void surface()
+	{
+		this.surface=Math.pow(this.cote, 2);
+	}
+	
+	void perimetre()
+	{
+		this.perimetre=4*this.cote;
+	}
+	
+	void afficher()
+	{
+		System.out.println("longeur : "+this.longeur);
+		System.out.println("longeur : "+this.largeur);
+	}
+}
+
+
+class Triangle extends Forme 
+{
+	private double base;
+	private double hauteur;
+	private double cote;
+	
+	
+	Triangle(int a, int b,int c )
+	{
+		this.cote1=a;
+		this.cote2=b;
+		this.cote3=c;
+	}
+	
+	void surface()
+	{
+		double s=
+		this.surface=Math.sqrt(cote1);
+	}
+	
+	void perimetre()
+	{
+		this.perimetre=this.cote1+this.cote2+this.cote3;
+	}
+	
+	void afficher()
+	{
+		System.out.println("longeur : "+this.longeur);
+		System.out.println("longeur : "+this.largeur);
+	}
+}
+
+
+class Cercle extends Forme 
+{
+	private double  rayon;
+	final static double PI=3.14;
+	
+	
+	
+	Carre()
+	{
+		this.longeur=a;
+		this.largeur=b;
+	}
+	
+	void surface()
+	{
+		this.surface=this.largeur*this.longeur;
+	}
+	
+	void perimetre()
+	{
+		this.perimetre=2*this.longeur;
+	}
+	
+	void afficher()
+	{
+		System.out.println("longeur : "+this.longeur);
+		System.out.println("longeur : "+this.largeur);
+	}
+}

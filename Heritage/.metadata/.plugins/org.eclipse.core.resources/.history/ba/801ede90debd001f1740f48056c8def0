@@ -1,0 +1,7 @@
+package heritage;
+
+public class Web extends RefBiblioraphie 
+{
+	private String LienWeb;
+	
+}

@@ -1,0 +1,10 @@
+package heritage;
+import java.time.LocalDate;
+
+
+public class Article extends RefBiblioraphie {
+
+	LocalDate datePublishier;
+	
+	
+}

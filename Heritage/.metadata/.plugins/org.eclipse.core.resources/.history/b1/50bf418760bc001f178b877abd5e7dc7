@@ -1,0 +1,40 @@
+package Chaine;
+import java.util.Scanner;
+
+public class Chaine 
+{
+	public static void main(String[] args)
+	{
+		System.out.print("Entrer une phrase :");
+		Scanner scanner = new Scanner(System.in);
+		String phrase=scanner.nextLine(); 
+		
+		int nbrmot=nombre_mot(phrase);
+		System.out.print("le nombre de mot du phrase c'est :" + nbrmot);
+		
+		
+	}
+	
+	public static int nombre_mot(String s)
+	{
+		if(s==null || s.isEmpty())  return 0;
+		
+		int nbrmot=0;
+		boolean dansUnMot=false;
+		for(int i=0 ; i<s.length() ; i++)
+		{
+			char c=s.charAt(i);
+			
+			if(c==' ') dansUnMot=false;
+			else if(!dansUnMot)
+			{
+				nbrmot++;
+				dansUnMot=true;
+			}
+		}
+		return nbrmot;
+	}
+	
+	
+	
+}

@@ -1,0 +1,26 @@
+package projet;
+
+public class TestPoint 
+{
+	private int x, y;
+	public TestPoint(int x1, int y1) 
+	{
+		x = x1; y = y1;
+	}
+	public double distance(TestPoint p)
+	{
+		return Math.sqrt((x-p.x)*(x-p.x) + (y-p.y)*(y-p.y));
+	}
+}
+
+
+/** Teste la classe Point */
+class Point 
+{
+	public static void main(String[] args) 
+	{
+		TestPoint p1 = new TestPoint(1, 2);
+		TestPoint p2 = new TestPoint(5, 1);
+	System.out.println("Distance : " + p1.distance(p2));
+	}
+}

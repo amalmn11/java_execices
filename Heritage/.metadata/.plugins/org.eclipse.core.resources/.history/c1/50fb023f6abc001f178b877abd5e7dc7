@@ -1,0 +1,10 @@
+package heritage;
+
+public class Livre extends RefBiblioraphie  
+{
+	private int AnneePubication;
+	public Livre(String,String,int )
+	public void Affichage() {
+		
+	}
+}

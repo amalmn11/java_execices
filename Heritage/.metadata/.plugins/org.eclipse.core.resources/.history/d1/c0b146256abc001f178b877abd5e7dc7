@@ -1,0 +1,7 @@
+package heritage;
+
+public class Article extends RefBiblioraphie {
+
+	private int AnneePubication;
+	
+}

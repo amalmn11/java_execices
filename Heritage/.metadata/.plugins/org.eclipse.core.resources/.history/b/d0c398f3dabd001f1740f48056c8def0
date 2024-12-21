@@ -1,0 +1,10 @@
+package heritage;
+
+abstract class RefBiblioraphie 
+{
+	protected String Titre;
+	protected String Auteur;
+	RefBiblioraphie(String,String);
+	public abstract void Affichage();
+
+}

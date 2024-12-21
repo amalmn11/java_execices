@@ -1,0 +1,7 @@
+package heritage;
+
+public class Article {
+
+	private int AnneePubication;
+	
+}

@@ -1,0 +1,9 @@
+package heritage;
+
+public class Livre extends RefBiblioraphie  
+{
+	pu
+	public void Affichage() {
+		
+	}
+}

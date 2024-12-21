@@ -1,0 +1,41 @@
+package projet;
+
+abstract public class Forme 
+{
+	 protected double surface;
+	 protected double perimetre;
+	 abstract void afficher();
+	 abstract void surface();
+	 abstract void perimetre();
+}
+
+
+class Carre extends Forme 
+{
+	private int longeur;
+	private int largeur;
+	
+	
+	
+	Carre(int a, int b)
+	{
+		this.longeur=a;
+		this.largeur=b;
+	}
+	
+	void surface()
+	{
+		this.surface=this.largeur*this.longeur;
+	}
+	
+	void perimetre()
+	{
+		this.perimetre=2*this.longeur;
+	}
+	
+	void afficher()
+	{
+		System.out.println("longeur : "+this.longeur);
+		System.out.println("longeur : "+this.largeur);
+	}
+}

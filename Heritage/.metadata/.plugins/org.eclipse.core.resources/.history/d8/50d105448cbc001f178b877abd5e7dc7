@@ -1,0 +1,13 @@
+package heritage;
+
+public class Livre extends RefBiblioraphie  
+{
+	private int AnneePubication;
+	public Livre(String titre,String auteur,int an)
+	{
+		
+	}
+	public void Affichage() {
+		
+	}
+}
